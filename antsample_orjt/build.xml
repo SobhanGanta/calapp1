@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="helloworld" default="world">
+
+	<target name="hello">
+	
+		 <echo message="sobhan babu"></echo>
+		</target>
+		
+	<target name="world" depends="hello">
+		
+		<echo message="welcome ant project">
+		</echo>
+	</target>
+	</project>
+
